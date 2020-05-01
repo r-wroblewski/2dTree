@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Point</title>
+</head>
+<body>
+<center>
+    <h1>
+        Select the point
+    </h1>
+    <form method="get" action="AddPoint">
+    	<label for="xpoint">X Coordinate:</label>
+    	<input type="number" step="0.01" id="xpoint1" name="xpoint1"><br><br>
+    	<label for="ypoint">Y Coordinate:</label>
+  		<input type="number" step="0.01" id="ypoint1" name="ypoint1"><br><br>
+  		<input type="submit" value="Add Point To Tree">
+    </form>
+    <form method="post" action="GetNearest">
+    	<label for="xpoint">X Coordinate:</label>
+    	<input type="number" step="0.01" id="xpoint2" name="xpoint2"><br><br>
+    	<label for="ypoint">Y Coordinate:</label>
+  		<input type="number" step="0.01" id="ypoint2" name="ypoint2"><br><br>
+  		<input type="submit" value="Get Nearest Point">
+    </form>
+</center>
+
+
+</body>
+</html>
